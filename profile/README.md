@@ -1,8 +1,8 @@
 # VeeCode APIP
 
-![VeeCode Platform](https://docs.platform.vee.codes/assets/images/setup-defaults-fa890a1a7cb8dabc07987cd3c2c30502.png)
+![Kong Manager — APIP](../assets/apip-home.png)
 
-> Part of the **[VeeCode Platform](https://platform.vee.codes/)** — the self-service API lifecycle stack.
+> Part of the **[VeeCode Platform](https://platform.vee.codes/)** — a self-service Internal Developer Platform based on Backstage.
 
 **APIP** is an open, hardened distribution of [Kong Gateway](https://github.com/Kong/kong) (OSS), maintained by Vertigo as the runtime layer of the VeeCode Platform.
 
@@ -40,7 +40,7 @@ Together they take an API from spec to retirement without anyone filing a ticket
 ## What we ship
 
 - A fork of **Kong Gateway** with VeeCode-specific patches and plugins
-- Multi-arch (amd64 + arm64) **container images** for RHEL 10, published as [`veecode/kong`](https://hub.docker.com/r/veecode/kong)
+- Multi-arch (amd64 + arm64) **container images** based on RHEL 10, published as [`veecode/kong`](https://hub.docker.com/r/veecode/kong)
 - Signed **RPMs** for RHEL-family distros (RHEL / Rocky / AlmaLinux / CentOS Stream)
 
 Releases follow the `3.10.0-veecode.N` scheme — pinned to the last upstream Kong OSS tag, with the `-veecode.N` suffix tracking our own iterations.

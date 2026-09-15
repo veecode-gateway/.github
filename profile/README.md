@@ -8,6 +8,8 @@
 
 We pick up where Kong OSS slowed down: tagged releases, multi-arch RHEL builds, an SBOM-driven security gate, and a plugins-first extension model that survives upstream syncs.
 
+**APIP is not a Kong Gateway or Kong Konnect replacement** - we still recommend corporate customers to reach Kong Inc. for mission-critical or regulated environments. APIP is production-ready, but on similar terms as Kong OSS itself.
+
 ## The VeeCode Platform
 
 APIP is the gateway. It pairs with **VeeCode DevPortal** — a [Backstage](https://backstage.io/)-based Internal Developer Portal — so the full API lifecycle becomes a self-service experience:

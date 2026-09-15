@@ -49,7 +49,7 @@ Releases follow the `3.10.0-veecode.N` scheme — pinned to the last upstream Ko
 
 ## Repositories
 
-- **apip-parent** — coordination repo: release plans, ADRs, SBOMs, shared definitions
+- **apip-parent** (private) — coordination repo: release plans, ADRs, SBOMs, shared definitions
 - **kong** — fork of Kong Gateway with VeeCode patches and the RPM release pipeline
 - **docker-kong** — Dockerfiles and the multi-arch image build for `veecode/kong`
 - **kong-builder** — local-only build toolchain image for reproducing CI builds on a workstation
